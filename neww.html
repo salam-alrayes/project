@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            background-color: rgb(15, 7, 58);
+            color: aliceblue;
+            margin: 0;
+            display: flex;
+         
+            padding: 1px;
+        }
+        h5{
+            padding-left: 12px;
+            padding-right:420px ;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+            'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            cursor: pointer;
+            padding-top: 5px;
+        }
+        h5:hover{
+            text-decoration: underline;
+
+        }
+        button{
+
+            height: 33px;
+            margin-top: 19px;
+            margin-left: 0px;
+            
+            border-radius: 14px;
+            border: none;
+            color: aliceblue;
+            background-color: rgb(219, 48, 48);
+            margin-right: 12px;
+            float: right;
+              padding: 0px 30px;
+              cursor: pointer;
+
+        }
+        button:hover{
+            background-color: brown;
+        }
+        h1{
+            padding-right: 320px;
+            padding-left: 60px;
+        }
+        p{  cursor: pointer;
+            padding-left: 12px;
+            padding-top: 5px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+            'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        p:hover{
+            text-decoration: underline;
+          
+        }
+        
+      section{
+        background-color: rgb(15, 7, 58);
+        height: 50px; 
+        display: flex;
+       justify-content: center;
+    }
+      input{
+      height: 13px;
+      width: 550px;
+      border-radius: 40px;
+      padding: 10px;
+      padding-left: 20px;
+      margin-left: 24px;
+      border: none;
+      }
+      nav{
+        background-color: rgb(15, 7, 58) ;
+        height: 35px;
+       
+      }
+      a{
+        color: aliceblue;
+        text-decoration: none;
+       padding: 10px;
+      font-family: Arial, Helvetica, sans-serif;
+      position: relative;
+      }
+      .er{
+        color: aliceblue;
+        text-decoration: none;
+       padding: 10px;
+       padding-left:60px ;}
+      
+      
+        a::after{
+            content: '';
+            position: absolute;
+            height: 3px;
+            width: 0;
+            left:0 ;
+          
+            bottom: -1px;
+            
+        }
+        a:hover{
+
+            color: #ffffff;
+            
+        }
+        a:hover::after{
+            width: 100%;
+            background: #2415bf;
+        }
+        
+       .h:hover::after{
+        background-color: white;
+       }
+       .er:hover::after{
+        background-color: white;
+        width: 66%;
+        justify-content: center;
+        margin-left: 58px;
+       
+       }
+       .a:hover::after{
+        background-color: rgb(199, 109, 157);
+       }
+       .b:hover::after{
+        background-color: rgb(255, 102, 32);
+       }
+       .c:hover::after{
+        background-color: rgb(61, 105, 133);
+       }
+       .d:hover::after{
+        background-color: rgb(115, 203, 56);
+       }
+       .f:hover::after{
+        background-color: rgb(231, 176, 104);
+       }
+       .mony:hover::after{
+        background-color: aquamarine;
+       }
+       .e:hover::after{
+        background-color: rgb(117, 63, 205);
+       }
+    </style>
+</head>
+<body>
+    <header>
+        <h5>Explore</h5>
+        <h1>Britanneca</h1>
+        <button>Subscribe</button>
+        <p>Login</p>
+    </header>
+    <section>
+        <input type="text" placeholder="Search Britanneca...">
+    </section>
+    <nav>
+        <a href="#" class="er">Games & Quizzes</a>
+        <a href="#" class="a">History & Society</a>
+        <a href="#" class="b">Science & Tech</a>
+        <a href="#" class="c">Biographies</a>
+        <a href="#" class="d">Animals & Nature</a>
+        <a href="#" class="e">Geography & Travel</a>
+        <a href="#" class="f">Arts & Culture</a>
+        <a href="#" class="mony">Money</a>
+        <a href="#" class="h">Videos</a>
+        
+    </nav>
+</body>
+</html>
